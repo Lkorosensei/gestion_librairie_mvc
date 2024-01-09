@@ -1,5 +1,6 @@
 <div>
     <p> <?= isset($search)?'Recherche par '.$search:'' ?></p>
+    <h1>Tout les livres</h1>
 <table id='table'>
     <thead>
         <th>ISBN</th>
@@ -19,7 +20,7 @@
         <td><?=$l->ISBN?></td>
         <td><?=$l->Titre_livre?></td>
         <td><?=$l->Theme_livre?></td>
-        <td><?=$l->Nbr_pages_livres?></td>
+        <td><?=$l->Nbr_pages_livre?></td>
         <td><?=$l->Format_livre?></td>
         <td><?=$l->Nom_auteur?></td>
         <td><?=$l->Prenom_auteur?></td>
