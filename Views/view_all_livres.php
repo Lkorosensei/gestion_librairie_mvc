@@ -1,5 +1,4 @@
 <div>
-    <p> <?= isset($search)?'Recherche par '.$search:'' ?></p>
     <h1>Tout les livres</h1>
 <table id='table'>
     <thead>

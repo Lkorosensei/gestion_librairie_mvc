@@ -22,10 +22,11 @@ class Controller_commandes extends Controller
 
     public function action_par_editeur_commandes()
     {
+        // echo "je suis dans l'action du controller ";
         $m=Model::get_model();
         $data=['commandes'=>$m->get_par_editeur_commandes()];
         $this->render("par_editeur_commandes",$data);
-
+        
     }
 
 

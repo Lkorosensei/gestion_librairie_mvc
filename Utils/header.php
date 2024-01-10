@@ -77,7 +77,7 @@
           </a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="?controller=commandes&action=all_commandes">Toutes les commandes</a></li>
-            <li><a class="dropdown-item" href="?controller=commandes&action=par_editeur">Par Editeur</a></li>
+            <li><a class="dropdown-item" href="?controller=commandes&action=par_editeur_commandes">Par Editeur</a></li>
             <li><a class="dropdown-item" href="?controller=commandes&action=par_fournisseur">Par Fournisseur</a></li>
             <li><a class="dropdown-item" href="?controller=commandes&action=par_date">Par Date</a></li>
           </ul>
